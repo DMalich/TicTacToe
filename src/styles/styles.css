@@ -1,0 +1,36 @@
+body {
+
+}
+
+.App {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid {
+
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 4rem;
+    background-color:rgb(248, 240, 229);
+    border: solid 1px black;
+    color: black;
+    border-radius: 10px;
+}
+
+.cell_o {
+    background-color: #DDDBF1;
+}
+
+.cell_x {
+    background-color: #383F51;
+}
